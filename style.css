@@ -6,14 +6,29 @@ html {
   background-image: url(header.jpg); 
   background-position: center;
   background-size: cover;
-
 }
+
 hr{
   border-color: orangered;
   border-width: 2px;
   max-width: 65px;
 }
  
+div.below .row .bord{
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  
+}
+div.bord{
+  
+  /* width: 25%; */
+  padding: 30px;
+}
+div.below{
+  background-color: thistle;
+}
 h1{
   color: #FFF9AA;
   font-size: 3rem;

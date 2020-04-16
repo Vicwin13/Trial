@@ -6,6 +6,7 @@ html {
   background-image: url(header.jpg); 
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 hr{
@@ -13,21 +14,39 @@ hr{
   border-width: 2px;
   max-width: 65px;
 }
- 
-div.below .row .bord{
-  color: black;
-  display: flex;
-  justify-content: center;
-  text-align: justify;
-  
-}
-div.bord{
-  
-  /* width: 25%; */
+
+div.container2{
+  color:white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 15px;
+  background-image: url(background.jpg);
+   background-position: center;
+  background-size: cover;
+  background-repeat: repeat;;
+  height: 0 auto ;
   padding: 30px;
+  font-size: 20px;
 }
-div.below{
-  background-color: thistle;
+.text1, .text2, .text3{
+  padding: 10px;
+  padding-top: 20px;
+}
+.icon1, .icon2, .icon3{
+  padding-top: 15p;
+}
+.text1{
+  padding-right: 10px;
+}
+
+.part1, .part2, .part3{
+  
+  padding: 1px;
+}
+.part1, .part2{
+  border-right: 1.5px solid white;
+  border-top-width: 2em ;
 }
 h1{
   color: #FFF9AA;

@@ -58,7 +58,7 @@ h1{
   height: 10rem;
 }
 .btn-xl{
-  padding 1rem 2rem;
+  padding :1rem 2rem;
 }
 .btn{
   font-weight: 400;
@@ -74,4 +74,15 @@ h1{
   background-color: #ee4b08;
   border-color: #ee4b08 ;
   border-width: 3px;
+}
+
+.todolist{
+  margin-left: 10px;
+}
+ul{
+  padding-top: 15px;
+}
+#todobutton:hover{
+  background-color: rosybrown;
+  
 }
